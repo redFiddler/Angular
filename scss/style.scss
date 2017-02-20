@@ -1,0 +1,51 @@
+/*Fonts*/
+$font:'gotham-bookgotham-book';
+$fsize14:14px;
+$fsize16:16px;
+
+
+/*Color Variables*/
+$red:#ff0000;
+$white:#ffffff;
+$grey:#cccccc;
+$blue:blue;
+$green:green;
+
+@font-face {
+    font-family: 'gotham-bookgotham-book';
+    src: url('../fonts/gothmbok-webfont.woff2') format('woff2'),
+         url('../fonts/gothmbok-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body{
+	font-family:$font;
+	font-size:$fsize16;
+}
+
+
+
+.header{
+	background:$red; 
+	padding:20px; 
+	color:$white;
+	cursor:pointer;
+	&:hover{
+		background:$blue;
+		color:$white;
+	}
+}
+.content{
+	height:800px; 
+	padding:20px; 
+	background:$grey;
+	cursor:pointer;
+	&:hover{
+		background:$green;
+		color:$white;
+	}
+}

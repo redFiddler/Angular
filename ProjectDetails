@@ -1,0 +1,25 @@
+Technology need to use
+> HTML5, CSS3, SASS, Javascript, AngularJs
+
+
+Panels Need to Create
+> Admin
+> Regular Users
+
+
+Modules In Panels
+> Admin
+	> User Managment
+		> CRUD User
+		> User Access
+	> Data Managment
+		> Add Data
+		> Delete Data
+		> Update Data		 
+
+
+> Regular Users
+	> Home Page
+	> Search
+	> Detail View
+	> Personal Login
