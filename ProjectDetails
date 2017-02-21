@@ -1,3 +1,9 @@
+Git Login Details
+User Name : techbuffalo
+PWD : test123
+
+
+
 Technology need to use
 > HTML5, CSS3, SASS, Javascript, AngularJs
 
@@ -23,3 +29,7 @@ Modules In Panels
 	> Search
 	> Detail View
 	> Personal Login
+
+
+More Details
+Data Insert : Name, City, State, Country, Description, Image, Price.

@@ -1,0 +1,13 @@
+<!--SASS Process-->
+> Install Sass Using Sass WebSite
+> Create Css And scss File 
+> add Watch on css file using sass --watch --sourcemap scss/style.scss:css/style.css
+
+
+
+<!--GIT Process-->
+> Create Repository in GitHub
+> Clone it using {git clone <URL>}
+> Add new files or changes if any using {git add .}
+> Commit files in your local Repository using git commit m "<Message>"
+> Push files to GITHUB git push

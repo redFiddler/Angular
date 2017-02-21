@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Template</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Angular Js -->
+    <script src="https://code.angularjs.org/1.6.2/angular.min.js"></script>
+    <!-- Angular Js Route -->
+    <script src="https://code.angularjs.org/1.6.2/angular-route.js"></script>
+    <!-- Config js -->
+    <script src="../js/web.config.js"></script>
+    <!-- App js -->
+    <script src="../js/app.js"></script>
+</head>
+<body ng-app="myApp">
+    <!-- Header -->
+    <header class="header-wrap">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="header-inner-wrap">
+                        <h1 class="logo">
+                            Admin
+                        </h1>
+                        <nav>
+                            <ul>                           
+                                <li>
+                                    <a href="#!dashboard">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="#!adddata">Add Data</a>
+                                </li>
+                            </ul>    
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class="container-fluid">
+        <div class="row">                
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <section class="content">
+                    <div ng-view></div>    
+                </section>
+            </div>            
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer-wrap">
+        <div class="container-fluid">
+            <div class="row">                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="footer-inner-wrap">
+                        <strong>&copy;</strong>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </footer>
+</body>
+</html>
