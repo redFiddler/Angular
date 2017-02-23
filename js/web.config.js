@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ngRoute']);
+var app = angular.module('myApp', ['ngRoute', 'ngStorage']);
 
 app.config(function($routeProvider, $locationProvider){
     $locationProvider.hashPrefix('!');
