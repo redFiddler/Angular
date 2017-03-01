@@ -6,7 +6,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
                         <label>Title</label>
-                        <input type="text" class="form-control" ng-model="txtTitle">
+                        <input type="text" class="form-control" ng-model="txtTitle" name="txtTitle">
                     </div>
                 </div>
 
@@ -14,7 +14,9 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
                         <label>Country</label>
-                        <input type="text" class="form-control" ng-model="txtCountry">
+                        <select class="form-control" ng-model="txtCountry" ng-options="countryOption.name for countryOption in getCountryData.RestResponse.result track by countryOption.alpha3_code" ng-change="getSelectedCountryState()">
+                            
+                        </select>                        
                     </div>
                 </div>
 
@@ -22,7 +24,9 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
                         <label>State</label>
-                        <input type="text" class="form-control" ng-model="txtState">
+                        <select class="form-control" ng-model="txtState" ng-options="stateData.name for stateData in getStateData.RestResponse.result">
+                            
+                        </select>
                     </div>
                 </div>
 
